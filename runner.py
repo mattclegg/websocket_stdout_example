@@ -1,5 +1,5 @@
 from twisted.internet import reactor, protocol
-from autobahn.websocket import WebSocketServerFactory, \
+from autobahn.twisted.websocket import WebSocketServerFactory, \
                                WebSocketServerProtocol, \
                                listenWS
 from twisted.python.log import startLogging, msg
